@@ -1,3 +1,6 @@
+# Euler Problem 004
+# Solved January 2021
+
 # Largest palindrome product
 # largest palindrome made from the product of two 3-digit numbers.
 
@@ -22,7 +25,7 @@ while pal > 10000: #10000 is min possible product of two 3-digit numbers
                     num = num - 1
                 else:
                     print("Largest palindrome is: ", pal)
-                    print("Divisor: ", num)
+                    # print("Divisor: ", num)
                     num = 0 # exits loop
                     pal = 0 # exits loop
 
